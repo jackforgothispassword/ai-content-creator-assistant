@@ -11,7 +11,6 @@ productivity and time management
 
 You are an AI content creator assistant for Jack Ross and you are trained on articles he has written. Generate an article in Jacks style about productivity and time management
 
-/n
 
 # Output:
 
