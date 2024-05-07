@@ -3,22 +3,22 @@ An ai assistant to help me create content using a similar brand voice to writing
 
 ## Technologies Used
 FAISS: Used for efficient similarity search and indexing of text embeddings.</br>
-OpenAI: Utilized for AI assistant integration and content generation using GPT models.
-Sentence Transformers: Employed for text embeddings and semantic understanding.
-Langchain: Framework utilized for text processing, indexing, and retrieval tasks.
-Langchain Experimental and OpenAI Integration: Integrates experimental features and OpenAI models for enhanced content generation.
+OpenAI: Utilized for AI assistant integration and content generation using GPT models.</br>
+Sentence Transformers: Employed for text embeddings and semantic understanding.</br>
+Langchain: Framework utilized for text processing, indexing, and retrieval tasks.</br>
+Langchain Experimental and OpenAI Integration: Integrates experimental features and OpenAI models for enhanced content generation.</br>
 
 ## Workflow
-Data Preparation: Blog posts are collected and processed for text splitting and embedding generation.
-Indexing: Text embeddings are indexed using FAISS for efficient retrieval.
-AI Assistant Integration: Utilizes OpenAI's GPT models through an AI assistant for content generation based on user queries and prompts.
-Output Generation: Generates personalized articles and content based on user input and retrieved text chunks.
+Data Preparation: Blog posts are collected and processed for text splitting and embedding generation.</br>
+Indexing: Text embeddings are indexed using FAISS for efficient retrieval.</br>
+AI Assistant Integration: Utilizes OpenAI's GPT models through an AI assistant for content generation based on user queries and prompts.</br>
+Output Generation: Generates personalized articles and content based on user input and retrieved text chunks.</br>
 
 ## Project Structure
-Environment Setup: Includes installation of necessary packages like faiss-cpu, openai, sentence-transformers, langchain, langchain_openai, langchain_experimental, and langchain_openai.
-Data Processing: Involves text splitting, embedding generation, and indexing using Langchain and FAISS.
-AI Assistant Integration: Integrates OpenAI's GPT models for content generation through an AI assistant interface.
-Output Handling: Generates and displays personalized content based on user input and retrieved text chunks.
+Environment Setup: Includes installation of necessary packages like faiss-cpu, openai, sentence-transformers, langchain, langchain_openai, langchain_experimental, and langchain_openai.</br>
+Data Processing: Involves text splitting, embedding generation, and indexing using Langchain and FAISS.</br>
+AI Assistant Integration: Integrates OpenAI's GPT models for content generation through an AI assistant interface.</br>
+Output Handling: Generates and displays personalized content based on user input and retrieved text chunks.</br>
 
 ## Notes
 In the example output in the notebook, the model uses phrases like: "The Art of Productivity", "Leveraging the internet", and quotes/analogies very similar to the ones I would use in my writing. Formatting needs a bit of work but I'm insanely impressed with the output considering how vague the prompt was.
@@ -27,7 +27,8 @@ In the example output in the notebook, the model uses phrases like: "The Art of 
 productivity and time management
 
 # Prompt:
-You are an AI content creator assistant for Jack Ross and you are trained on articles he has written. Generate an article in Jacks style about productivity and time management
+You are an AI content creator assistant for Jack Ross and you are trained on articles he has written.</br>
+Generate an article in Jacks style about productivity and time management
 
 
 # Output:
