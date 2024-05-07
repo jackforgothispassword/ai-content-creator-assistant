@@ -2,7 +2,7 @@
 An ai assistant to help me create content using a similar brand voice to writing on my blog! 
 
 ## Technologies Used
-FAISS: Used for efficient similarity search and indexing of text embeddings.
+FAISS: Used for efficient similarity search and indexing of text embeddings.</n>
 OpenAI: Utilized for AI assistant integration and content generation using GPT models.
 Sentence Transformers: Employed for text embeddings and semantic understanding.
 Langchain: Framework utilized for text processing, indexing, and retrieval tasks.
